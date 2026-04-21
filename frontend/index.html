@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Secure Chat</title>
+
+  <!-- ✅ CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+          <h3>Chats</h3>
+          <div id="user-list"></div>
+          <button onclick="logout()">Logout</button>
+        </div>
+      
+        <!-- CHAT -->
+        <div class="chat">
+      
+          <!-- HEADER -->
+          <h2 id="chat-with">Select a user</h2>
+      
+          <!-- CHAT BOX -->
+          <div id="chat-box"></div>
+      
+          <!-- TYPING -->
+          <div id="typing"></div>
+      
+          <!-- INPUT -->
+          <div class="input-area">
+            <input id="messageInput" oninput="sendTyping()" placeholder="Type message...">
+            <button onclick="sendMessage()">Send</button>
+          </div>
+      
+        </div>
+  
+  </div>
+<!-- ✅ JAVASCRIPT (VERY IMPORTANT) -->
+<script src="app.js"></script>
+</body>
+</html>
