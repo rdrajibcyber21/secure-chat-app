@@ -17,24 +17,22 @@ A real-time chat application built using FastAPI and WebSocket.
 * Database: SQLite
 * WebSocket for real-time communication
 
-##  Screenshots
+## 📸 Screenshots
 
-###  Chat Interface
+### 🔐 Login Page
+![Login](screenshots/login.png)
 
-![Chat](screenshots/Users_realtime_Chating_Monit...)
+### 📝 Register Page
+![Register](screenshots/register.png)
 
-###  Login Page
+### ✅ Registration Success
+![Success](screenshots/register_success.png)
 
-![Login](screenshots/UI_Login and Register.jpg)
+### 💬 Chat Interface
+![Chat](screenshots/chat.png)
 
-### Registration Success
-
-![Register](screenshots/Register_successful.jpg)
-
-###  Users Online Status
-
-![Users](screenshots/Users_realtime_Chating_Monit...)
-
+### 📊 Monitoring
+![Monitoring](screenshots/monitoring.png)
 ## How to Run
 
 ### Backend
